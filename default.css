@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* * * * * * * *
+* Base
+* * * * * * * */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue",
+        Arial,
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        Meiryo,
+        sans-serif;
+    font-size: 1vw;
+    color: #333;
+    /*文字カラーの指定*/
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    /*リンクの色指定*/
+    text-decoration: none;
+}
+
+section {
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: inherit;
+    vertical-align: middle;
+    text-align: inherit;
+    font: inherit;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+
+/* * * * * * * *
+* utility
+* * * * * * * */
+
+.u-content-wrapper {
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.u-heading {
+    position: relative;
+    margin-bottom: 45px;
+    font-size: 36px;
+}
+
+.u-title {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.u-text {
+    padding-bottom: 30px;
+}
+
+.btn a {
+    color: #fff;
+    font-size: 18px;
+    line-height: 3;
+    background-color: #ffa104;
+    padding: 20px 60px;
+}
+
+.cat__tag {
+    color: #fff;
+    font-size: 12px;
+    background-color: #ffa104;
+    padding: 3px 10px;
+    border-radius: 100vh;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+
+
